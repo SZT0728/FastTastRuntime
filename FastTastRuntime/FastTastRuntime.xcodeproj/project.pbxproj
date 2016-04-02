@@ -16,6 +16,7 @@
 		643878851CAF9D820082F763 /* FastTastRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643878841CAF9D820082F763 /* FastTastRuntimeTests.m */; };
 		643878901CAF9D820082F763 /* FastTastRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6438788F1CAF9D820082F763 /* FastTastRuntimeUITests.m */; };
 		6438789F1CAF9E610082F763 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6438789E1CAF9E610082F763 /* Person.m */; };
+		643878A21CAFECE60082F763 /* NSDictionary+MyDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 643878A11CAFECE60082F763 /* NSDictionary+MyDict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		643878911CAF9D820082F763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6438789D1CAF9E610082F763 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		6438789E1CAF9E610082F763 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		643878A01CAFECE60082F763 /* NSDictionary+MyDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MyDict.h"; sourceTree = "<group>"; };
+		643878A11CAFECE60082F763 /* NSDictionary+MyDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MyDict.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				6438786E1CAF9D820082F763 /* AppDelegate.m */,
 				643878701CAF9D820082F763 /* ViewController.h */,
 				643878711CAF9D820082F763 /* ViewController.m */,
+				643878A01CAFECE60082F763 /* NSDictionary+MyDict.h */,
+				643878A11CAFECE60082F763 /* NSDictionary+MyDict.m */,
 				6438789D1CAF9E610082F763 /* Person.h */,
 				6438789E1CAF9E610082F763 /* Person.m */,
 				643878731CAF9D820082F763 /* Main.storyboard */,
@@ -277,6 +282,7 @@
 			files = (
 				643878721CAF9D820082F763 /* ViewController.m in Sources */,
 				6438786F1CAF9D820082F763 /* AppDelegate.m in Sources */,
+				643878A21CAFECE60082F763 /* NSDictionary+MyDict.m in Sources */,
 				6438789F1CAF9E610082F763 /* Person.m in Sources */,
 				6438786C1CAF9D820082F763 /* main.m in Sources */,
 			);
@@ -502,6 +508,7 @@
 				643878961CAF9D820082F763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643878971CAF9D820082F763 /* Build configuration list for PBXNativeTarget "FastTastRuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				643878991CAF9D820082F763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6438789A1CAF9D820082F763 /* Build configuration list for PBXNativeTarget "FastTastRuntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				6438789C1CAF9D820082F763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
