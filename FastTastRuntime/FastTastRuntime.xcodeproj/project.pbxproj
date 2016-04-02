@@ -15,6 +15,7 @@
 		6438787A1CAF9D820082F763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643878781CAF9D820082F763 /* LaunchScreen.storyboard */; };
 		643878851CAF9D820082F763 /* FastTastRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643878841CAF9D820082F763 /* FastTastRuntimeTests.m */; };
 		643878901CAF9D820082F763 /* FastTastRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6438788F1CAF9D820082F763 /* FastTastRuntimeUITests.m */; };
+		6438789F1CAF9E610082F763 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6438789E1CAF9E610082F763 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6438788B1CAF9D820082F763 /* FastTastRuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastTastRuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6438788F1CAF9D820082F763 /* FastTastRuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastTastRuntimeUITests.m; sourceTree = "<group>"; };
 		643878911CAF9D820082F763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6438789D1CAF9E610082F763 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6438789E1CAF9E610082F763 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6438786E1CAF9D820082F763 /* AppDelegate.m */,
 				643878701CAF9D820082F763 /* ViewController.h */,
 				643878711CAF9D820082F763 /* ViewController.m */,
+				6438789D1CAF9E610082F763 /* Person.h */,
+				6438789E1CAF9E610082F763 /* Person.m */,
 				643878731CAF9D820082F763 /* Main.storyboard */,
 				643878761CAF9D820082F763 /* Assets.xcassets */,
 				643878781CAF9D820082F763 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				643878721CAF9D820082F763 /* ViewController.m in Sources */,
 				6438786F1CAF9D820082F763 /* AppDelegate.m in Sources */,
+				6438789F1CAF9E610082F763 /* Person.m in Sources */,
 				6438786C1CAF9D820082F763 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
