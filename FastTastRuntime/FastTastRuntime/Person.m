@@ -8,6 +8,11 @@
 
 #import "Person.h"
 
+
+@interface Person()<NSCoding>
+
+@end
+
 @implementation Person
 
 
@@ -59,8 +64,33 @@
 }
 
 
+-(instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    if (self) {
+        unsigned int outCount;
+        Ivar *ivarList = class_copyIvarList([Person class], &outCount);
+        for (NSInteger i = 0; i < outCount; i ++) {
+            Ivar ivar = ivarList[i];
+            NSString *ivarName = [NSString
+                                  stringWithUTF8String:ivar_getName(ivar)];
+            [self setValue:[aDecoder decodeObjectForKey:ivarName] forKey:ivarName];
+        }
+    }
+    return self;
+}
 
 
+-(void)encodeWithCoder:(NSCoder *)aCoder
+{
+    unsigned int outCount;
+    Ivar *ivarlist = class_copyIvarList([self class], &outCount);
+    for (NSInteger i = 0; i < outCount; i ++) {
+        Ivar ivar = ivarlist[i];
+        NSString *ivarName = [NSString stringWithUTF8String:ivar_getName(ivar)];
+        [aCoder encodeObject:[self valueForKey:ivarName] forKey:ivarName];
+    }
+}
 
 
 
