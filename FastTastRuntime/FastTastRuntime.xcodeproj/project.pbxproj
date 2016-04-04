@@ -17,6 +17,7 @@
 		643878901CAF9D820082F763 /* FastTastRuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6438788F1CAF9D820082F763 /* FastTastRuntimeUITests.m */; };
 		6438789F1CAF9E610082F763 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6438789E1CAF9E610082F763 /* Person.m */; };
 		643878A21CAFECE60082F763 /* NSDictionary+MyDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 643878A11CAFECE60082F763 /* NSDictionary+MyDict.m */; };
+		64D5E0D51CB0F0F4000EB334 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D5E0D41CB0F0F4000EB334 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		6438789E1CAF9E610082F763 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		643878A01CAFECE60082F763 /* NSDictionary+MyDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MyDict.h"; sourceTree = "<group>"; };
 		643878A11CAFECE60082F763 /* NSDictionary+MyDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MyDict.m"; sourceTree = "<group>"; };
+		64D5E0D31CB0F0F4000EB334 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		64D5E0D41CB0F0F4000EB334 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				643878A11CAFECE60082F763 /* NSDictionary+MyDict.m */,
 				6438789D1CAF9E610082F763 /* Person.h */,
 				6438789E1CAF9E610082F763 /* Person.m */,
+				64D5E0D31CB0F0F4000EB334 /* Dog.h */,
+				64D5E0D41CB0F0F4000EB334 /* Dog.m */,
 				643878731CAF9D820082F763 /* Main.storyboard */,
 				643878761CAF9D820082F763 /* Assets.xcassets */,
 				643878781CAF9D820082F763 /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D5E0D51CB0F0F4000EB334 /* Dog.m in Sources */,
 				643878721CAF9D820082F763 /* ViewController.m in Sources */,
 				6438786F1CAF9D820082F763 /* AppDelegate.m in Sources */,
 				643878A21CAFECE60082F763 /* NSDictionary+MyDict.m in Sources */,

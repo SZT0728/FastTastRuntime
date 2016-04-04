@@ -24,6 +24,13 @@
     [person personGetPersonMessage];
     [person getAttributeOfproperty];
     
+    [person goForWork];
+    
+    [person walk];
+    
+    [person eat];
+    
+    /*
     NSDictionary *dict = [NSDictionary new];
     dict.funnyName = @"SoFunny";
     NSLog(@"dict.funnyName = %@",dict.funnyName);
@@ -35,7 +42,7 @@
     
     //调用dict的action
     dict.dictAction(@"新增加变量dicAction");
-    
+    */
     
 
 

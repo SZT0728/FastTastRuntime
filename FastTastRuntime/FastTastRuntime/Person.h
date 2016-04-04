@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
+#import "Dog.h"
 
 @interface Person : NSObject
 {
@@ -19,11 +20,23 @@
 @property(nonatomic,assign)NSInteger height;
 @property(nonatomic,assign)double weight;
 
+@property(nonatomic,strong)Dog *myDog;
+
 + (Person *)personWithName:(NSString *)name age:(NSNumber *)age gender:(NSString *)gender clan:(NSString *)clan;
 
 - (void)personGetPersonMessage;
 
 - (void)getAttributeOfproperty;
+
+- (void)goForWork;
+
+- (void)walk;
+
+
+//方法交换测试
+- (void)drink;
+
+- (void)eat;
 
 
 @end
